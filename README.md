@@ -12,6 +12,7 @@ This project demonstrates a real-world Azure data pipeline, using the Bronze-Sil
 - **Azure Databricks**: Data transformation
 - **Azure Synapse Analytics**: Data serving
 - **Power BI Desktop**: Data visualization
+- **Access Control (IAM)**: Secrets & Role Management
 
 ---
 
