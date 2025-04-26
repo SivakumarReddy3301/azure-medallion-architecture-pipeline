@@ -1,3 +1,5 @@
+CREATE SCHEMA gold
+
 -----------------------
 -- create view calender
 -----------------------
