@@ -1,0 +1,33 @@
+{
+    "name": "JsonParamsDataset",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ADLSLinkedService",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Json",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileName": "git.json",
+                "fileSystem": "parameters"
+            }
+        },
+        "schema": {
+            "type": "object",
+            "properties": {
+                "relative_url": {
+                    "type": "string"
+                },
+                "sink_directory_name": {
+                    "type": "string"
+                },
+                "sink_file_name": {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}
